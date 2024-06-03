@@ -12,6 +12,10 @@
     /* box-sizing: border-box; */
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav {
     margin-left: 11.0rem;
     margin-right: 5rem;
@@ -311,8 +315,6 @@ main {
     padding-right: 80px;
 }
 
-.main-right-heading{
-}
 
 .main-right-heading p{
   font-family: "Ubuntu", sans-serif;
