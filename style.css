@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@10&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    /* margin: 0; */
+    margin-right: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+nav {
+    margin-left: 11.0rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+}
+header {
+    background: #fff;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    
+    padding-left: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: "Open sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  */
+    /* Adjust the shadow properties as needed */
+    font-weight: bold;
+     /* Add any other font properties as needed */
+}
+
+nav ul li a:hover{
+    color: #FF5555;
+}
+
+.btn {
+    background: black;
+    color: #fff;
+    height: 20px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: "Open sans", sans-serif;
+    margin-left: auto;
+    margin-top: px;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+    border: rgb(0,0,0) solid 0.1rem;
+}
+
+.nav-links{
+    display: flex;
+    margin-right: 5rem;
+}
+
+.logo{
+    margin-top: 0.5rem;
+    height: 35px;
+    width: 117px;
+}
+
+.star1-icon {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+}
+
+
+/* HERO */
+
+.hero{
+    margin-right: 0px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.star3-icon{
+    height: 46px;
+    width: 46px;
+}
+
+.parts-container{
+    display: flex;
+    flex-direction: row;
+    flex: 0.2;
+}
+
+.container{
+    width: 100%;
+    /* max-width: 3000px; */
+    position: relative;
+    margin-left: 95px;
+    flex: 1;
+    
+}
+
+.image1{
+    /* position: absolute; */
+    right: 0;
+    width: 500px;
+    height: 400px;
+    
+}
+
+.text{
+    position: absolute;
+    top: 25%;
+    font-size: 53px;
+    font-weight: bold;
+    font-family: "Open-sans", sans-serif;
+    justify-content: space-around;
+}
+
+.textsmall{
+    font-family: "Open-sans", sans-serif;
+    position: absolute;
+    top: 60%
+}
+
+.btn-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.btn-1{
+    border: none;
+    cursor: pointer;
+}
+
+.image-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-2{
+    height: 60px;
+    width: 180px;
+    background: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    background: black;
+    color: white;
+}
+
+.achievements{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+.star8-icon{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 46px;
+    width: 46px;
+}
+.achievements-img{
+    width: 500px;
+    padding-left: 0px;
+}
+
+.phone-img{
+    /* padding-right: 1000px; */
+    position: relative;
+    margin-left: 40px;
+    height: 200px;
+    /* overflow: hidden; */
+}
+
+/* .red-image{
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 120px;
+}
+
+.ellipse{
+    position: absolute;
+    padding-right: 1px;
+} */
+
+.red-image {
+    z-index: 1;
+    /* padding-top: 120px; */
+    position: absolute; /* Change to absolute positioning for precise control */
+    left: 200px;
+    right: 0px; /* Align to the right end of the parent container */
+    top: 110px; /* Align to the bottom end of the parent container */
+  }
+  
+  .ellipse {
+    z-index: 2;
+    left:30px;
+    right: 10px;
+    position: absolute; /* Ensure absolute positioning for precise control */
+    /* right: 10px; Move more to the right by adjusting this value */
+    top: 50px; /* Bring it down by adjusting this value */
+  }
+
+/* .ellipse-red-container{
+    position: relative;
+} */
+
+.iphone-r{
+    top: 200px;
+    right: 0;
+    left: 240px;
+    z-index: 3;
+    position: absolute;
+    height: 720px;
+    width: 510px;
+}
+
+.iphone-m{
+    top: 120px;
+    z-index: 4;
+    position: absolute;
+    height: 720px;
+    width: 510px;
+    right: 0;
+    left: 80px;
+}
+
+.iphone-l{
+    /* top: ; */
+    position: absolute;
+    z-index: 5;
+    height: 720px;
+    width: 510px;
+    left: -70px;
+    /* right: 0; */
+
+}
+
+
+
+/* MAIN */
+main {
+    clear: both;
+    margin-top: 20rem;  /* Adjust the value as needed for spacing */
+    padding: 40px;  /* Add padding for internal spacing */
+    display: flex;
+    flex-direction: row;
+}
+
+.star2-icon{
+    margin-left: 15px;
+    margin-top: 15rem;
+}
+
+.main-shade1{
+    z-index: 1;
+    position: relative;
+    margin-top: -12rem;
+    padding-left: 0px;
+}
+
+.main-ellipse{
+    z-index: 2;
+    position: absolute;
+    top: 1000px;
+    left: 35px;
+}
+
+.main-iphone{
+    z-index: 3;
+    position: absolute;
+    top: 1060px;
+    left: 220px;
+}
+
+.main-right{
+    margin-top: 180px;
+    margin-left: 100px;
+    padding-right: 80px;
+}
+
+.main-right-heading{
+}
+
+.main-right-heading p{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+
+.main-right-heading-1{
+    font-size: 20px;
+    margin-bottom: -35px;
+    color: #FF5555;
+}
+
+.main-right-heading-2{
+    font-size: 40px;
+}
+
+.heading-one{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.heading-one span{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-left: 8px;
+}
+
+.main-right-main-content{
+    position: relative;
+}
+
+.main-right-image{
+    position: absolute;
+    right: 0;
+    top: 67rem;
+}
