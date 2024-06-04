@@ -39,11 +39,13 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+    gap: 100px;
 }
 
 nav ul li a {
     font-family: "Open sans", sans-serif;
     font-weight: 100;
+    font-size: 20px;
     font-style: normal;
     text-decoration: none;
     color: black;
@@ -144,7 +146,8 @@ nav ul li a:hover{
 .textsmall{
     font-family: "Open-sans", sans-serif;
     position: absolute;
-    top: 60%
+    top: 60%;
+    line-height: 25px;
 }
 
 .btn-container{
@@ -311,8 +314,9 @@ main {
 
 .main-right{
     margin-top: 180px;
-    margin-left: 100px;
-    padding-right: 80px;
+    margin-left: 150px;
+    
+    padding-right: 40px;
 }
 
 
@@ -356,3 +360,446 @@ main {
     right: 0;
     top: 67rem;
 }
+
+/* ADVANTAGES 1 */
+.advantages1{
+    clear: both;
+    position: relative;
+}
+
+.star5-icon {
+    position: absolute; /* Position the image absolutely within the container */
+    right: 15px; /* Align the image to the right end of the container */
+    top: 10%; /* Adjust the vertical alignment as needed */
+    transform: translateY(-50%); /* Center the image vertically */
+}
+
+.advantages1-text-heading p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+  }
+  
+  .advantages1-text-heading-1{
+      font-size: 20px;
+      margin-bottom: -35px;
+      color: #FF5555;
+  }
+  
+  .advantages1-text-heading-2{
+      font-size: 40px;
+  }
+
+  .advantages1-text{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 180px;
+  }
+
+  .advantages1-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .advantages1-image-shade{
+    position: relative;
+    margin-top: 170px;
+    left: -60px;
+  }
+
+  .advantages1-image-ellipse{
+    top: -30px;
+    left: 750px;
+    position: absolute;
+  }
+
+  .advantages1-image-phone{
+    position: absolute;
+    left: 925px;
+    top: 20px;
+  }
+
+  .advantages1-text-heading-one{
+    margin-top: -25px;
+    /* padding-left: 10px; */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .advantages1-text-heading-one span{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 12px;
+  }
+
+  .advantages1-text-content{
+    font-size: 17px;
+    font-family: "Open-sans", sans-serif;
+    margin-top: 15px;
+    width: 520px;
+    text-align: justify;
+    line-height: 27px;
+  }
+
+  /* ADVANTAGES 2 */
+  .advantages2{
+    clear: both;
+    /* position: relative; */
+}
+
+.star6-icon{
+    position: absolute;
+    left: 42%;
+}
+
+.advantages2-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.advantages2-container-left-shade{
+    top: 100px;
+    position: relative;
+    left: 170px;
+}
+
+.advantages2-container-left-ellipse{
+    position: absolute;
+    left: 40px;
+}
+
+.advantages2-container-left-phone{
+    position: absolute;
+    left: 220px;
+    top: 2325px;
+    /* top: 300%; */
+}
+
+.advantages2-container-right{
+    padding-left: 300px;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages2-text-content{
+    font-size: 17px;
+    font-family: "Open-sans", sans-serif;
+    margin-top: 15px;
+    width: 520px;
+    line-height: 27px;
+    /* text-align: justify; */
+}
+
+.advantages2-text-heading-one{
+    /* margin-top: -25px; */
+    /* padding-left: 10px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.advantages2-text-heading-one span{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 12px;
+  }
+
+/* TESTIMONIALS */
+  
+  .star-above-testimonials{
+    clear: both;
+  }
+  .star7-icon{
+    margin-top: 80px;
+    position: absolute;
+    left: 85%;
+  }
+
+  .testimonials{
+    display: flex;
+    flex-direction: column;
+    clear: both;
+  }
+
+  /* .testimonials-heading{
+    position: absolute;
+    margin-top: 225px;
+    left: 50%;
+  } */
+
+  .testimonials-heading {
+    width: 50%; /* Set the desired width */
+    margin: 0 auto; 
+    /* This will center the div horizontally */
+    margin-top: 200px;
+}
+
+  .testimonials-heading p{
+    text-align: center;
+  }
+
+  .testimonials-heading-1{
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .testimonials-heading-2, .testimonials-heading-3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -15px;
+  }
+
+  .testimonials-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .testimonials-container-left-shade{
+    position: relative;
+    left: 80px;
+    top: 90px;
+  }
+
+  .testimonials-container-left-ellipse{
+    position: absolute;
+    left: 80px;
+    top: 3150px;
+  }
+
+  .testimonials-container-left-people{
+    position: absolute;
+    top: 3240px;
+    left: 140px;
+  }
+
+  .testimonials-container-right{
+    padding-top: 100px;
+    padding-left: 350px;
+    width: 460px;
+  }
+
+  .testimonials-container-right-heading{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .testimonials-container-right-content{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 25px;
+  }
+
+  .testimonials-container-right-content-image{
+    margin-top:15px;
+  }
+
+  .Nick-jonas{
+    padding-top: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .star9-icon{
+    position: absolute;
+    left: 50px;
+    margin-top: 570px;
+  }
+
+  /* FAQ */
+  .FAQ{
+    clear: both;
+    margin-top: 380px;
+    
+  }
+
+  .star11-icon{
+    position: absolute;
+    left: 55%;
+  }
+
+  .FAQ-heading{
+    position: absolute;
+    /* top: 515%; */
+    margin-top: -70px;
+    padding-left: 170px;
+  }
+
+  .FAQ-heading p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+  }
+  
+  .FAQ-heading-1{
+      font-size: 20px;
+      margin-bottom: -35px;
+      color: #FF5555;
+  }
+  
+  .FAQ-heading-2{
+      font-size: 40px;
+  }
+
+  .FAQ-container{
+    padding-top: 110px;
+    padding-left: 170px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .FAQ-container-left{
+    width: 45%;
+  }
+
+  .FAQ-container-red{
+    line-height: 25px;
+    background-color: #FF5555;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 10px;
+  }
+
+  .FAQ-container-white{
+    line-height: 25px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 10px;
+  }
+   
+  .FAQ-container-right{
+    margin-left: 30px;
+    width: 45%;
+  }
+
+  .FAQ-container-right-white{
+    line-height: 25px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 10px;
+  }
+
+  .FAQ-container-right-red{
+    line-height: 25px;
+    background-color: #FF5555;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 10px;
+  }
+
+  /* GET-STARTED */
+
+  .get-started{
+    /* margin-top: 150px; */
+    position: relative;
+    padding-top: 150px;
+    clear: both;
+    padding-bottom: 100px;
+  }
+
+  .get-started-main-container{
+    z-index: 0;
+    border-radius: 8px;
+    position: relative;
+    background-color: black;
+    height: 508px;
+    width: 77%; /* Set the desired width */
+    margin: 0 auto; /* This will center the div horizontally */
+  }
+
+  .main-container-shade{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .main-container-ellipse-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .main-container-iphone{
+    position: absolute;
+    z-index: 3;
+    top: 5%;
+    right: 0;
+  }
+
+  .main-container-star-up{
+    position: absolute;
+    top: 7%;
+    right: 32%;
+  }
+
+  .main-container-ellipse-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .main-container-button{
+    z-index: 2;
+    position: absolute;
+    bottom: 29%;
+    left: 7.5%;
+    cursor: pointer;
+  }
+
+  .main-container-text{
+    width: 55%;
+    top: 30%;
+    position: absolute;
+    color: #fff;
+    left: 7.5%;
+  }
+
+  .main-container-text-heading{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+  }
+
+  .main-container-text-content{
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
+
+  .main-container-star-lower{
+    position: absolute;
+    bottom: 17%;
+    left: 40%;
+  }
+
+  .get-started-shade{
+    position: absolute;
+    z-index: -1;
+    top: 0.2%;
+  }
