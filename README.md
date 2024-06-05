@@ -2,6 +2,10 @@
 
 This project demonstrates a simple webpage for a fintech company Uifry using HTML and CSS.
 
+## Deployed Link
+
+You can view the deployed project [here](https://main--uifry-systems.netlify.app/).
+
 ## Instructions to Run the Project Locally
 
 1. Clone the repository:
