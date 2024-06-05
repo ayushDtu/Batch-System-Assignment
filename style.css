@@ -17,8 +17,10 @@ html{
 }
 
 nav {
-    margin-left: 11.0rem;
-    margin-right: 5rem;
+    /* margin-left: 11.0rem; */
+    margin-left: 10vw;
+    margin-right: 5vw;
+    /* margin-right: 5rem; */
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -30,7 +32,7 @@ header {
     background: #fff;
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     
-    padding-left: 10px;
+    /* padding-left: 5vw; */
 }
 nav ul {
     display: flex;
@@ -39,7 +41,6 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
-    gap: 100px;
 }
 
 nav ul li a {
@@ -100,7 +101,7 @@ nav ul li a:hover{
 /* HERO */
 
 .hero{
-    margin-right: 0px;
+    margin-right: 0;
     margin-left: 50px;
     display: flex;
     flex-direction: row;
@@ -114,6 +115,7 @@ nav ul li a:hover{
 .parts-container{
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     flex: 0.2;
 }
 
@@ -123,7 +125,6 @@ nav ul li a:hover{
     position: relative;
     margin-left: 95px;
     flex: 1;
-    
 }
 
 .image1{
@@ -203,11 +204,12 @@ nav ul li a:hover{
     padding-left: 0px;
 }
 
+
 .phone-img{
     /* padding-right: 1000px; */
     position: relative;
-    margin-left: 40px;
-    height: 200px;
+    margin-left: 2vw;
+    /* height: 200px; */
     /* overflow: hidden; */
 }
 
@@ -281,7 +283,7 @@ nav ul li a:hover{
 main {
     clear: both;
     margin-top: 20rem;  /* Adjust the value as needed for spacing */
-    padding: 40px;  /* Add padding for internal spacing */
+    /* padding: 40px;  Add padding for internal spacing */
     display: flex;
     flex-direction: row;
 }
@@ -315,7 +317,7 @@ main {
 .main-right{
     margin-top: 180px;
     margin-left: 150px;
-    
+    /* margin-left: 70vw; */
     padding-right: 40px;
 }
 
@@ -622,18 +624,63 @@ main {
     
   }
 
+  
+
   .star11-icon{
     position: absolute;
     left: 55%;
   }
 
+  @media screen and (max-width: 500px) {
+    
+    .FAQ{
+        width: 330%;
+    }
+
+    .star11-icon{
+        left: 270%;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    
+    .FAQ{
+        width: 400%;
+    }
+
+    .star11-icon{
+        left: 270%;
+    }
+
+}
+@media screen and (max-width: 1400px) {
+    
+    .FAQ{
+        width: 185%;
+    }
+
+    .star11-icon{
+        left: 105%;
+    }
+}
+
+
   .FAQ-heading{
     position: absolute;
     /* top: 515%; */
-    margin-top: -70px;
-    padding-left: 170px;
+    margin-top: -10vh;
+    padding-left: 11vw;
   }
+  @media screen and (max-width: 475px) {
+    
+    .FAQ-heading{
+        width: 370%;
+        margin-bottom: 15px;
+    }
 
+
+}
   .FAQ-heading p{
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
@@ -641,6 +688,7 @@ main {
     
   }
   
+
   .FAQ-heading-1{
       font-size: 20px;
       margin-bottom: -35px;
@@ -653,7 +701,8 @@ main {
 
   .FAQ-container{
     padding-top: 110px;
-    padding-left: 170px;
+    padding-left: 11vw;
+    padding-right: 4vw;
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -685,7 +734,7 @@ main {
   }
    
   .FAQ-container-right{
-    margin-left: 30px;
+    margin-left: 2vw;
     width: 45%;
   }
 
@@ -718,18 +767,49 @@ main {
     padding-top: 150px;
     clear: both;
     padding-bottom: 100px;
+    /* width: fit-content; */
+    padding-bottom: 100px;
+    margin-bottom: 500px;
   }
 
   .get-started-main-container{
     z-index: 0;
     border-radius: 8px;
-    position: relative;
+    /* position: relative; */
+    position: absolute;
+    left: 10%;
+    right: 10%;
     background-color: black;
     height: 508px;
     width: 77%; /* Set the desired width */
-    margin: 0 auto; /* This will center the div horizontally */
+    margin: 0 auto; 
+    
+    /* This will center the div horizontally */
   }
 
+
+
+@media screen and (max-width: 500px) {
+    
+    .get-started-main-container{
+        width: 330%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    
+    .get-started-main-container{
+        width: 153%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    
+    .get-started-main-container{
+        width: 370%;
+    }
+
+}
   .main-container-shade{
     z-index: 1;
     position: absolute;
@@ -749,6 +829,7 @@ main {
     z-index: 3;
     top: 5%;
     right: 0;
+    left: unset;
   }
 
   .main-container-star-up{
@@ -770,6 +851,7 @@ main {
     bottom: 29%;
     left: 7.5%;
     cursor: pointer;
+    right: unset;
   }
 
   .main-container-text{
@@ -778,6 +860,7 @@ main {
     position: absolute;
     color: #fff;
     left: 7.5%;
+    right: unset;
   }
 
   .main-container-text-heading{
